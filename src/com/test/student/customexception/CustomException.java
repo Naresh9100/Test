@@ -1,0 +1,7 @@
+package com.test.student.customexception;
+
+public class CustomException extends Exception {
+	public  CustomException(String str) {
+		super(str);
+	}
+}
